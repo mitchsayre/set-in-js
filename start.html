@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game of Set</title>    
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome</h1>
+            <form action="game.html">
+                <label for="number-of-players">Number of players:</label>
+                <input type="number-players" id="number-of-players" name="number-of-players" min="1">
+                <input type="submit" value="Start">
+              </form>
+        </div>
+        <div class="rules">
+            The object of the game is to identify a 'Set' of three cards from 12 cards
+                laid out on the table. Each card has a variation of the following four features:<br>
+                  (A) COLOR: Each card is red, green, or purple.<br>
+                  (B) SYMBOL: Each card contains ovals, squiggles, or diamonds.<br>
+                  (C) NUMBER: Each card has one, two, or three symbols.<br>
+                  (D) SHADING: Each card is solid, open, or striped.<br>
+                  A 'Set' consists of three cards in which each feature is EITHER the same
+                  on each card OR is different on each card. That is to say, any feature in
+                  the 'Set' of three cards is either common to all three cards or is different
+                  on each card.<br>
+                  <br>
+                  <em>For example, the following are 'Sets':</em><br>
+                  All three cards are red; all are ovals; all have two symbols; and all
+                  have different shadings.<br>
+                  All have different colors; all have different symbols; all have different
+                  numbers of symbols; and all have the same shading.<br>
+                  All have different colors; all have different symbols; all have different
+                  numbers of symbols, and all have different shadings.<br>
+                  <br>
+                  <em>The following are not 'Sets':</em><br>
+                  All have different colors; all are diamonds; all have one symbol; however,
+                  two are open and one is not.<br>
+                  All are squiggles; all have different shadings; all have two symbols;
+                  however, two are red and one is not.<br>              
+        </div>
+    </div>
+</body>
+
+</html>
